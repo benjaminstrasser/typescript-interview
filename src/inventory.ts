@@ -1,5 +1,5 @@
 import { subWeeks } from "date-fns";
-import {Book, Customer} from "./model";
+import { Customer} from "./model";
 
 
 export const customers: Customer[] = [
