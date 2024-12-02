@@ -10,7 +10,7 @@ describe('Inventory tests', () => {
         expect(result).toContain(books[4])
     })
 
-    test('Seach for available books with string', () => {
+    test('Search for available books with string', () => {
         const result = inventoryService.searchForAvailableBookWithTitle("The")
         expect(result).toHaveLength(1)
         expect(result).toContain(books[4])
